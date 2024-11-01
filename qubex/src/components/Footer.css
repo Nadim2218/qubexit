@@ -1,0 +1,38 @@
+#footer {
+	padding: 11px;
+	background: linear-gradient(to right,  #000000, #3533cd);
+	padding-bottom: 0 !important;
+}
+.footer-icon li a{
+    font-size: 25px;
+    color: white;
+}
+.copyright p{
+    color: white;
+}
+.footer-icon{
+    display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.footer-contact li a{
+    color: white;
+    font-weight: 600;
+}
+@media (max-width: 575.98px) {
+    .copyright p {
+        color: white;
+        font-size: 12px;
+    }
+    .footer-contact li a {
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

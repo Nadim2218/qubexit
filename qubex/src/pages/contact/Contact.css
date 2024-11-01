@@ -1,0 +1,42 @@
+#contact-page {
+  padding-top: 160px;
+  padding-bottom: 40px;
+}
+.contact-pageptext h1 {
+  color: white;
+  background: linear-gradient(90deg, #ad94e2, #f9f8fc);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.contact-pageptext p {
+  color: rgba(255, 255, 255, 0.674);
+}
+.contact-pageptext h5 {
+  color: white;
+  font-weight: 500;
+}
+.contact-pageptext p a {
+  color: white;
+}
+.contact-pageptext p {
+  color: white;
+}
+.gapp {
+  row-gap: 20px;
+}
+.send {
+  padding: 6px 20px;
+  background-color: white;
+  border: transparent;
+  font-weight: 700;
+  margin-top: 10px;
+  color: black;
+}
+@media (max-width: 575.98px) {
+  #contact-page {
+    padding-top: 120px;
+  }
+}

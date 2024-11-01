@@ -1,0 +1,104 @@
+.logo {
+	width: 55%;
+}
+.navbar-color {
+	background: linear-gradient(to right, #000000, #3533cd);
+	box-shadow: 10px 10px 10px -10px #ffffff57, inset 10px 10px 10px -10px #ffffff3d;
+	height: 100px;
+}
+.nav-link{
+    color: white;
+    font-weight: 600;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	color: white;
+}
+
+
+/* responsive */
+@media (max-width: 575.98px) {
+	.navbar-brand {
+		width: 200px;
+	}
+	.logo {
+		width: 94%;
+	}
+	.navbar-color {
+		background: linear-gradient(to right, #000000, #3533cd);
+		box-shadow: 10px 10px 10px -10px #ffffff57, inset 10px 10px 10px -10px #ffffff3d;
+		height: 80px;
+	}
+	.navbar-toggler {
+		padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+		font-size: var(--bs-navbar-toggler-font-size);
+		line-height: 1;
+		color: white;
+		background-color: transparent;
+		border: 1px solid white;
+		border-radius: var(--bs-navbar-toggler-border-radius);
+		transition: var(--bs-navbar-toggler-transition);
+	}
+	.navbar-nav{
+		width: 100%;
+		background: linear-gradient(to right, #000000, #3533cd);
+  padding: 0 14px;
+	}
+	
+  }
+  @media (min-width: 576px) and (max-width: 766.98px) {
+	.navbar-brand {
+		width: 200px;
+	}
+	.logo {
+		width: 94%;
+	}
+	.navbar-color {
+		background: linear-gradient(to right, #000000, #3533cd);
+		box-shadow: 10px 10px 10px -10px #ffffff57, inset 10px 10px 10px -10px #ffffff3d;
+		height: 80px;
+	}
+	.navbar-toggler {
+		padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+		font-size: var(--bs-navbar-toggler-font-size);
+		line-height: 1;
+		color: white;
+		background-color: transparent;
+		border: 1px solid white;
+		border-radius: var(--bs-navbar-toggler-border-radius);
+		transition: var(--bs-navbar-toggler-transition);
+	}
+	.navbar-nav{
+		width: 100%;
+		background: linear-gradient(to right, #000000, #3533cd);
+  padding: 0 14px;
+	}
+  }
+  
+  @media (min-width: 767px) and (max-width: 991.98px) {
+	.navbar-brand {
+		width: 200px;
+	}
+	.logo {
+		width: 94%;
+	}
+	.navbar-color {
+		background: linear-gradient(to right, #000000, #3533cd);
+		box-shadow: 10px 10px 10px -10px #ffffff57, inset 10px 10px 10px -10px #ffffff3d;
+		height: 80px;
+	}
+	.navbar-toggler {
+		padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+		font-size: var(--bs-navbar-toggler-font-size);
+		line-height: 1;
+		color: white;
+		background-color: transparent;
+		border: 1px solid white;
+		border-radius: var(--bs-navbar-toggler-border-radius);
+		transition: var(--bs-navbar-toggler-transition);
+	}
+	.navbar-nav{
+		width: 100%;
+		background: linear-gradient(to right, #000000, #3533cd);
+  padding: 0 14px;
+	}
+  }
